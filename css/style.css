@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/*index section*/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+body {
+    background-image:none,url(../images/bghome.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  }
+.image{
+    flex: 1 1 40rem;
+
+}
+  
+  
+.navbar{
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 50px;
+    }
+.logo{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+.nav-menu ul{
+    display:flex;
+    list-style: none;
+}
+.nav-menu ul a{
+    text-decoration:none;
+    color: black;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color .4s;
+}
+.nav-menu ul a:hover{
+    color:rgb(253, 251, 248);
+}
+.header-content{
+ width: 100%;
+ display: grid;
+ place-items: center;
+ text-align: center;
+ height: calc(100% - 80%px)
+}
+
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+.content p1 {
+    color: rgb(172, 106, 18);
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+   
+}
+.content p2 {
+    color: rgb(63, 32, 2);
+    font-style:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.image{
+    flex: 1 1 40rem;
+}
+
+.image img{
+    width: 20%;
+    margin-top: 10%;
+    position:absolute;
+    right: 25%;
+    top: 15%;
+    transform: translate(50%, -50%);
+}
+
+.right-text {
+    text-align:center;
+    margin-top: 10%;
+    margin-right: -60%;
+ }
+ footer {
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+/*end index*/
+  
+  /*biodata section*/
+ 
+ .contentbiodata h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+ .contact h2{
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    text-align: center;
+    font-size: 30px;
+    
+ }
+ .button{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    bottom: 35%;
+    right: 35%;
+
+ }
+ .button a i{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+ }
+ .button a i:hover{
+    color: rgb(99, 77, 1);
+ }
+ .button1{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    bottom: 27%;
+    right: 35%;
+
+ }
+ .button1 a i{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+ }
+ .button1 a i:hover{
+    color: rgb(99, 77, 1);
+ }
+ .button2{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    bottom: 18%;
+    right: 35%;
+
+ }
+ .button2 a i{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+ }
+ .button2 a i:hover{
+    color: rgb(99, 77, 1);
+ }
+
+ .imagebiodata{
+    flex: 1 1 40rem;
+}
+
+.imagebiodata img{
+    width: 13%;
+    margin-top: 13%;
+    position:fixed;
+    left: 6%;
+    top: 15%;
+    transform: translate(50%, -50%);
+}
+
+div.kotakbiodata1
+{ 
+ float: left;
+ width: 25%;
+ height: 230px;
+ background-color: rgba(232, 184, 94, 0.5);
+ font-size: 8px;
+ font-weight: lighter;
+ text-align:justify;
+ padding: 1.5%;
+} 
+
+div.kotakbiodata2 
+{ 
+ float: left;
+ margin-left: 10%;
+ width: 30%;
+ height: 300px;
+ margin-top:  -30%;
+ background-color: rgba(189, 135, 36, 0.5);
+ font-size: 8px;
+ text-align:center;
+ padding: 1.5%;
+} 
+div.kotakbiodata3
+{ 
+ float: left;
+ margin-left: 45%;
+ width: 30%;
+ height: 300px;
+ margin-top:  -30%;
+ background-color: rgba(189, 135, 36, 0.5);
+ font-size: 10px;
+ text-align:center;
+ padding: 1.5%;
+} 
+.justified-text{
+    text-align: justify;
+}
+
+ /*end biodata*/
+
+ /*experience section*/
+ .contentexperience h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    position: fixed;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+ .contentexperience p1{
+    font-size: 18px;
+    font-weight: 100;
+    right: 10%;
+    text-align: center;
+    margin-top: 170px;
+    color: rgb(123, 85, 34);
+    position: fixed;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+
+
+.imageexperience img{
+    width: 33%;
+    margin-top: 22%;
+    position:absolute;
+    left: -4%;
+    top: 15%;
+    transform: translate(50%, -50%);
+}
+
+div.kotakexperience h1
+{ 
+ float: right;
+ width: 35%;
+ height: 300px;
+ top: 22%;
+ right: 10%;
+ color: rgb(81, 56, 1);
+ background-color: rgba(232, 184, 94, 0.5);
+ border: 0.5px solid rgba(3, 3, 3, 0.5);
+ font-size: 18px;
+ font-weight: lighter;
+ text-align:center;
+ padding: 1.5%;
+} 
+
+.footer {
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ /*end experience*/
+
+ /*education section*/
+ .contentedu h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+
+ table,tr,th,td
+ {
+     border-collapse: collapse;
+     height: 5vh;
+     box-sizing: 10px;
+     text-align: center;
+     border: 2px solid black
+     
+          
+ }
+ 
+ tr
+ {
+     background-color: bisque;
+
+ }
+ 
+ th
+ {
+     width: 30%;
+     background-color: rgb(235, 219, 197);
+ }
+ 
+ tr:nth-child(odd)
+ {
+     background-color: rgb(192, 151, 80);
+ }
+ 
+ .containeredu{
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(249, 248, 247, 0.5);
+    overflow: auto;
+   
+ }
+ .galleryedu{
+    margin: 2px;
+    float: left;
+    border: 0.5px solid rgba(4, 3, 2, 0.5);
+    width: 235.5px;
+ }
+ .gallery img{
+    width: 100%;
+    height: auto;
+ }
+ .desc{
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+ }
+ 
+ .footer {
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ /*end education*/
+
+ /*family section*/
+ .contentfamily h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+ .imagefamily img{
+    width: 33%;
+    margin-top: 22%;
+    position:absolute;
+    left: -4%;
+    top: 15%;
+    transform: translate(50%, -50%);
+}
+div.kotakfamily h1
+{ 
+ float: right;
+ width: 40%;
+ height: 450px;
+ margin-top: 0.5%;
+ right: 10%;
+ color: rgb(81, 56, 1);
+ border: 0.5px solid rgba(3, 3, 3, 0.5);
+ background-color: rgba(232, 184, 94, 0.5);
+ font-size: 18px;
+ font-weight: lighter;
+ text-align:center;
+ padding: 1.5%;
+} 
+.justified-text{
+    text-align: justify;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ /*end family*/
+
+
+ /*Gallery section*/
+ .contentgallery h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+ .container{
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(249, 248, 247, 0.5);
+    overflow: auto;
+   
+ }
+ .gallery{
+    margin: 2px;
+    float: left;
+    border: 0.5px solid rgba(4, 3, 2, 0.5);
+    width: 235.5px;
+ }
+ .gallery img{
+    width: 100%;
+    height: auto;
+ }
+ .desc{
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+ }
+ .footer {
+    width: 100%;
+    background-color: rgba(232, 184, 94, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+ /*end Gallery*/
+
+
+
